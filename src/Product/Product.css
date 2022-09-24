@@ -16,7 +16,7 @@
     margin: 7px;
 }
 .product-info p{
-    margin: 3.5px;
+    margin: 7px;
 }
 
 .product-name{
@@ -31,4 +31,8 @@
     position: absolute;
     bottom:  0px;
     border-radius: 0px 0px 6px 6px;
+}
+
+.cart-btn:hover{
+    background-color: orange;
 }
