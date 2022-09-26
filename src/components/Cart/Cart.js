@@ -7,7 +7,7 @@ const Cart = ({cart}) => {
     let quantity = 0;
     for (const product of cart) {
         quantity = quantity + product.quantity;
-        total = total + product.price * quantity;
+        total = total + product.price * product.quantity;
         shipping = shipping + product.shipping;
     }
 
